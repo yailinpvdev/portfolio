@@ -1,9 +1,18 @@
+import profileImg from "../assets/profile.png"
+
 function Hero() {
   return (
     <section
       id="home"
       className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white text-center px-6"
     >
+
+      <img
+        src={profileImg}
+        alt="Yailín Pérez"
+        className="w-32 h-32 rounded-full mb-6 border-4 border-white object-cover"
+      />
+
       <h1 className="text-5xl font-bold mb-4">
         Hola, soy Yailín Pérez
       </h1>
@@ -42,6 +51,7 @@ function Hero() {
         </a>
 
       </div>
+
     </section>
   )
 }
