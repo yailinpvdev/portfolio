@@ -10,10 +10,10 @@ function Hero() {
       <img
         src={profileImg}
         alt="Yailín Pérez"
-        className="w-32 h-32 rounded-full mb-6 border-4 border-white object-cover"
+        className="w-44 h-44 rounded-full mb-6 border-4 border-white object-cover"
       />
 
-      <h1 className="text-5xl font-bold mb-4">
+      <h1 className="text-6xl font-bold mb-4">
         Hola, soy Yailín Pérez
       </h1>
 
