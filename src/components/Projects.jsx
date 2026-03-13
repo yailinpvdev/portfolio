@@ -14,13 +14,13 @@ function Projects() {
           {/* Proyecto 1 */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-           <div className="overflow-hidden">
-  <img
-    src={portfolioImg}
-    alt="Portfolio Web"
-    className="w-full h-48 object-cover transition duration-500 hover:scale-110"
-  />
-</div>
+            <div className="overflow-hidden">
+              <img
+                src={portfolioImg}
+                alt="Portfolio Web"
+                className="w-full h-48 object-cover transition duration-500 hover:scale-110"
+              />
+            </div>
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3">
@@ -52,34 +52,56 @@ function Projects() {
 
           </div>
 
+
           {/* Proyecto 2 */}
-          <div className="bg-slate-800 p-6 rounded-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
-            <h3 className="text-xl font-semibold mb-3">
-              Dashboard de datos
-            </h3>
+          <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <p className="text-gray-400 mb-4">
-              Dashboard interactivo para visualizar datos.
-            </p>
+            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400">
+              Imagen próximamente
+            </div>
 
-            <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
-              Próximamente
-            </button>
+            <div className="p-6">
+              <h3 className="text-xl font-semibold mb-3">
+                Dashboard de datos
+              </h3>
+
+              <p className="text-gray-400 mb-4">
+                Dashboard interactivo para visualizar datos.
+              </p>
+
+              <div className="flex justify-center">
+                <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
+                  Próximamente
+                </button>
+              </div>
+            </div>
+
           </div>
 
+
           {/* Proyecto 3 */}
-          <div className="bg-slate-800 p-6 rounded-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
-            <h3 className="text-xl font-semibold mb-3">
-              CRUD App
-            </h3>
+          <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <p className="text-gray-400 mb-4">
-              Aplicación CRUD conectada a base de datos.
-            </p>
+            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400">
+              Imagen próximamente
+            </div>
 
-            <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
-              Próximamente
-            </button>
+            <div className="p-6">
+              <h3 className="text-xl font-semibold mb-3">
+                CRUD App
+              </h3>
+
+              <p className="text-gray-400 mb-4">
+                Aplicación CRUD conectada a base de datos.
+              </p>
+
+              <div className="flex justify-center">
+                <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
+                  Próximamente
+                </button>
+              </div>
+            </div>
+
           </div>
 
         </div>
