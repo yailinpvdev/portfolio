@@ -24,12 +24,14 @@ function Contact() {
             <FaGithub />
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/yailin-perezv"
-            className="hover:text-gray-400"
-          >
-            <FaLinkedin />
-          </a>
+         <a
+  href="https://www.linkedin.com/in/yailin-perezv"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-gray-400"
+>
+  <FaLinkedin />
+</a>
 
         </div>
 
