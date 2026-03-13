@@ -44,7 +44,7 @@ function Hero() {
         </a>
 
         <a
-          href="https://linkedin.com"
+          href="www.linkedin.com/in/yailin-perezv"
           target="_blank"
           className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
         >
