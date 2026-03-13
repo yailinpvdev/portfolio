@@ -13,27 +13,43 @@ function Projects() {
             <h3 className="text-xl font-semibold mb-3">
               Portfolio Web
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-400 mb-4">
               Portafolio personal construido con React y Tailwind.
             </p>
+
+            <a
+              href="https://github.com/yailinpvdev/portfolio"
+              target="_blank"
+              className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold"
+            >
+              Ver en GitHub
+            </a>
           </div>
 
           <div className="bg-slate-800 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">
               Dashboard de datos
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-400 mb-4">
               Dashboard interactivo para visualizar datos.
             </p>
+
+            <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
+              Próximamente
+            </button>
           </div>
 
           <div className="bg-slate-800 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">
               CRUD App
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-400 mb-4">
               Aplicación CRUD conectada a base de datos.
             </p>
+
+            <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
+              Próximamente
+            </button>
           </div>
 
         </div>
