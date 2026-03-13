@@ -9,10 +9,11 @@ function Projects() {
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          <div className="bg-slate-800 p-6 rounded-lg">
+          <div className="bg-slate-800 p-6 rounded-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-xl">
             <h3 className="text-xl font-semibold mb-3">
               Portfolio Web
             </h3>
+
             <p className="text-gray-400 mb-4">
               Portafolio personal construido con React y Tailwind.
             </p>
@@ -20,16 +21,17 @@ function Projects() {
             <a
               href="https://github.com/yailinpvdev/portfolio"
               target="_blank"
-              className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold"
+              className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-200"
             >
               Ver en GitHub
             </a>
           </div>
 
-          <div className="bg-slate-800 p-6 rounded-lg">
+          <div className="bg-slate-800 p-6 rounded-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-xl">
             <h3 className="text-xl font-semibold mb-3">
               Dashboard de datos
             </h3>
+
             <p className="text-gray-400 mb-4">
               Dashboard interactivo para visualizar datos.
             </p>
@@ -39,10 +41,11 @@ function Projects() {
             </button>
           </div>
 
-          <div className="bg-slate-800 p-6 rounded-lg">
+          <div className="bg-slate-800 p-6 rounded-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-xl">
             <h3 className="text-xl font-semibold mb-3">
               CRUD App
             </h3>
+
             <p className="text-gray-400 mb-4">
               Aplicación CRUD conectada a base de datos.
             </p>

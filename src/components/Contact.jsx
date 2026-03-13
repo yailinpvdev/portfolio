@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+
 function Contact() {
   return (
     <section id="contact" className="bg-slate-800 text-white py-20 px-6">
@@ -12,21 +14,21 @@ function Contact() {
           puedes encontrarme en los siguientes enlaces.
         </p>
 
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center gap-8 text-3xl">
 
           <a
             href="https://github.com/yailinpvdev"
             target="_blank"
-            className="bg-white text-black px-6 py-3 rounded-lg font-semibold"
+            className="hover:text-gray-400"
           >
-            GitHub
+            <FaGithub />
           </a>
 
           <a
             href="#"
-            className="border border-white px-6 py-3 rounded-lg font-semibold"
+            className="hover:text-gray-400"
           >
-            LinkedIn
+            <FaLinkedin />
           </a>
 
         </div>
