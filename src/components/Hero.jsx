@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white text-center px-6"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-gray-900 text-white text-center px-6"
     >
 
       <img
