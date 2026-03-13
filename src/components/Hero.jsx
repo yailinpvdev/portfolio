@@ -3,9 +3,10 @@ import profileImg from "../assets/profile.png"
 function Hero() {
   return (
     <section
-      id="home"
-      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-gray-900 text-white text-center px-6"
-    >
+  id="home"
+  data-aos="fade-up"
+  className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-gray-900 text-white text-center px-6"
+>
 
       <img
         src={profileImg}
