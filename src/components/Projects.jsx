@@ -14,11 +14,13 @@ function Projects() {
           {/* Proyecto 1 */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <img
-              src={portfolioImg}
-              alt="Portfolio Web"
-              className="w-full h-48 object-cover"
-            />
+           <div className="overflow-hidden">
+  <img
+    src={portfolioImg}
+    alt="Portfolio Web"
+    className="w-full h-48 object-cover transition duration-500 hover:scale-110"
+  />
+</div>
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3">
