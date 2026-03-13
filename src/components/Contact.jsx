@@ -25,7 +25,7 @@ function Contact() {
           </a>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/yailin-perezv"
             className="hover:text-gray-400"
           >
             <FaLinkedin />
