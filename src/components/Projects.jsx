@@ -9,9 +9,10 @@ function Projects() {
           Proyectos
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-          {/* Proyecto 1 */}
+
+          {/* Portfolio */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
@@ -24,40 +25,41 @@ function Projects() {
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3">
-                Portfolio Web Profesional
+                Portfolio Web
               </h3>
 
               <p className="text-gray-400 mb-4">
-                Portafolio personal desarrollado con React, Vite y TailwindCSS
-                para mostrar mis proyectos, habilidades y progreso como
-                desarrolladora frontend.
+                Portafolio personal construido con React, Vite y Tailwind
+                para mostrar mis proyectos y habilidades.
               </p>
 
               <div className="flex gap-3 justify-center">
+
                 <a
                   href="https://yailinpvdev.github.io/portfolio/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-200 transition"
+                  className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-200"
                 >
-                  Ver sitio
+                  Demo
                 </a>
 
                 <a
                   href="https://github.com/yailinpvdev/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black transition"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black"
                 >
                   GitHub
                 </a>
+
               </div>
             </div>
 
           </div>
 
 
-          {/* Proyecto 2 */}
+          {/* Climate Dashboard */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
@@ -65,32 +67,35 @@ function Projects() {
             </div>
 
             <div className="p-6">
+
               <h3 className="text-xl font-semibold mb-3">
-                Climate Data Analytics Dashboard
+                Climate Dashboard
               </h3>
 
               <p className="text-gray-400 mb-4">
-                Dashboard interactivo construido con React que visualiza datos
-                climáticos en tiempo real utilizando APIs externas y gráficos
-                dinámicos.
+                Dashboard que visualiza datos climáticos en tiempo real
+                usando APIs y gráficos interactivos.
               </p>
 
-              <div className="flex gap-3 justify-center">
+              <div className="flex justify-center">
+
                 <a
                   href="https://github.com/yailinpvdev/climate-data-analytics-dashboard"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black transition"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black"
                 >
                   GitHub
                 </a>
+
               </div>
+
             </div>
 
           </div>
 
 
-          {/* Proyecto 3 */}
+          {/* Farm API */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
@@ -98,31 +103,71 @@ function Projects() {
             </div>
 
             <div className="p-6">
+
               <h3 className="text-xl font-semibold mb-3">
-                Farm Data Management System
+                Farm Data API
               </h3>
 
               <p className="text-gray-400 mb-4">
-                API REST desarrollada con Node.js y Express para gestionar datos
-                agrícolas mediante operaciones CRUD y endpoints estructurados.
+                API REST desarrollada con Node.js y Express
+                para gestionar datos agrícolas.
               </p>
 
-              <div className="flex gap-3 justify-center">
+              <div className="flex justify-center">
+
                 <a
                   href="https://github.com/yailinpvdev/farm-data-management-system"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black transition"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black"
                 >
                   GitHub
                 </a>
+
               </div>
+
             </div>
 
           </div>
 
-        </div>
 
+          {/* Agro Data Manager */}
+          <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+
+            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
+              Captura próximamente
+            </div>
+
+            <div className="p-6">
+
+              <h3 className="text-xl font-semibold mb-3">
+                Agro Data Manager
+              </h3>
+
+              <p className="text-gray-400 mb-4">
+                Aplicación basada en MySQL que organiza y consulta
+                datos agrícolas mediante consultas SQL.
+              </p>
+
+              <div className="flex justify-center">
+
+                <a
+                  href="https://github.com/yailinpvdev/agro-data-manager"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black"
+                >
+                  GitHub
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
       </div>
     </section>
   )
