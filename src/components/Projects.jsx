@@ -14,9 +14,8 @@ function Projects() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-
           {/* Portfolio */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -59,12 +58,11 @@ function Projects() {
 
               </div>
             </div>
-
           </div>
 
 
           {/* Climate Dashboard */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -99,12 +97,11 @@ function Projects() {
               </div>
 
             </div>
-
           </div>
 
 
           {/* Farm API */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -139,12 +136,11 @@ function Projects() {
               </div>
 
             </div>
-
           </div>
 
 
           {/* Agro Data Manager */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -179,9 +175,7 @@ function Projects() {
               </div>
 
             </div>
-
           </div>
-
 
         </div>
       </div>
