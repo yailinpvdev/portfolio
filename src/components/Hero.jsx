@@ -10,7 +10,7 @@ function Hero() {
 
       <img
         src={profileImg}
-        alt="Yailín Pérez"
+        alt="Foto de Yailín Pérez"
         className="w-44 h-44 rounded-full mb-6 border-4 border-white object-cover"
       />
 
@@ -31,6 +31,7 @@ function Hero() {
         <a
           href="#projects"
           className="bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition"
+          aria-label="Ver proyectos"
         >
           Ver proyectos
         </a>
@@ -40,15 +41,17 @@ function Hero() {
           target="_blank"
           rel="noopener noreferrer"
           className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
+          aria-label="Ir a GitHub"
         >
           GitHub
         </a>
 
         <a
-          href="https://www.linkedin.com/in/yailin-perezv"
+          href="https://linkedin.com/in/yailin-perezv"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
+          aria-label="Ir a LinkedIn"
         >
           LinkedIn
         </a>
