@@ -24,18 +24,21 @@ function Projects() {
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3">
-                Portfolio Web
+                Portfolio Web Profesional
               </h3>
 
               <p className="text-gray-400 mb-4">
-                Portafolio personal construido con React y Tailwind.
+                Portafolio personal desarrollado con React, Vite y TailwindCSS
+                para mostrar mis proyectos, habilidades y progreso como
+                desarrolladora frontend.
               </p>
 
               <div className="flex gap-3 justify-center">
                 <a
                   href="https://yailinpvdev.github.io/portfolio/"
                   target="_blank"
-                  className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-200"
+                  rel="noopener noreferrer"
+                  className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-200 transition"
                 >
                   Ver sitio
                 </a>
@@ -43,7 +46,8 @@ function Projects() {
                 <a
                   href="https://github.com/yailinpvdev/portfolio"
                   target="_blank"
-                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black"
+                  rel="noopener noreferrer"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black transition"
                 >
                   GitHub
                 </a>
@@ -56,23 +60,30 @@ function Projects() {
           {/* Proyecto 2 */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400">
-              Imagen próximamente
+            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
+              Captura próximamente
             </div>
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3">
-                Dashboard de datos
+                Climate Data Analytics Dashboard
               </h3>
 
               <p className="text-gray-400 mb-4">
-                Dashboard interactivo para visualizar datos.
+                Dashboard interactivo construido con React que visualiza datos
+                climáticos en tiempo real utilizando APIs externas y gráficos
+                dinámicos.
               </p>
 
-              <div className="flex justify-center">
-                <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
-                  Próximamente
-                </button>
+              <div className="flex gap-3 justify-center">
+                <a
+                  href="https://github.com/yailinpvdev/climate-data-analytics-dashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black transition"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
 
@@ -82,23 +93,29 @@ function Projects() {
           {/* Proyecto 3 */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400">
-              Imagen próximamente
+            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
+              Captura próximamente
             </div>
 
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3">
-                CRUD App
+                Farm Data Management System
               </h3>
 
               <p className="text-gray-400 mb-4">
-                Aplicación CRUD conectada a base de datos.
+                API REST desarrollada con Node.js y Express para gestionar datos
+                agrícolas mediante operaciones CRUD y endpoints estructurados.
               </p>
 
-              <div className="flex justify-center">
-                <button className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold">
-                  Próximamente
-                </button>
+              <div className="flex gap-3 justify-center">
+                <a
+                  href="https://github.com/yailinpvdev/farm-data-management-system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black transition"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
 
