@@ -16,7 +16,7 @@ function Projects() {
 
 
           {/* Portfolio */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -26,17 +26,18 @@ function Projects() {
               />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
+
               <h3 className="text-xl font-semibold mb-3">
                 Portfolio Web
               </h3>
 
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400 mb-6">
                 Portafolio personal construido con React, Vite y Tailwind
                 para mostrar mis proyectos y habilidades.
               </p>
 
-              <div className="flex gap-3 justify-center">
+              <div className="flex gap-3 justify-center mt-auto">
 
                 <a
                   href="https://yailinpvdev.github.io/portfolio/"
@@ -63,7 +64,7 @@ function Projects() {
 
 
           {/* Climate Dashboard */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -73,18 +74,18 @@ function Projects() {
               />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
 
               <h3 className="text-xl font-semibold mb-3">
                 Climate Dashboard
               </h3>
 
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400 mb-6">
                 Dashboard que visualiza datos climáticos en tiempo real
                 usando APIs y gráficos interactivos.
               </p>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-auto">
 
                 <a
                   href="https://github.com/yailinpvdev/climate-data-analytics-dashboard"
@@ -103,7 +104,7 @@ function Projects() {
 
 
           {/* Farm API */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -113,18 +114,18 @@ function Projects() {
               />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
 
               <h3 className="text-xl font-semibold mb-3">
                 Farm Data API
               </h3>
 
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400 mb-6">
                 API REST desarrollada con Node.js y Express
                 para gestionar datos agrícolas.
               </p>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-auto">
 
                 <a
                   href="https://github.com/yailinpvdev/farm-data-management-system"
@@ -143,7 +144,7 @@ function Projects() {
 
 
           {/* Agro Data Manager */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
             <div className="overflow-hidden">
               <img
@@ -153,18 +154,18 @@ function Projects() {
               />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
 
               <h3 className="text-xl font-semibold mb-3">
                 Agro Data Manager
               </h3>
 
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400 mb-6">
                 Aplicación basada en MySQL que organiza y consulta
                 datos agrícolas mediante consultas SQL.
               </p>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-auto">
 
                 <a
                   href="https://github.com/yailinpvdev/agro-data-manager"
