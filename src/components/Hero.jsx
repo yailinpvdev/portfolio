@@ -3,10 +3,10 @@ import profileImg from "../assets/profile.png"
 function Hero() {
   return (
     <section
-  id="home"
-  data-aos="fade-up"
-  className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-gray-900 text-white text-center px-6"
->
+      id="home"
+      data-aos="fade-up"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-gray-900 text-white text-center px-6"
+    >
 
       <img
         src={profileImg}
@@ -38,14 +38,16 @@ function Hero() {
         <a
           href="https://github.com/yailinpvdev"
           target="_blank"
+          rel="noopener noreferrer"
           className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
         >
           GitHub
         </a>
 
         <a
-          href="www.linkedin.com/in/yailin-perezv"
+          href="https://www.linkedin.com/in/yailin-perezv"
           target="_blank"
+          rel="noopener noreferrer"
           className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
         >
           LinkedIn
