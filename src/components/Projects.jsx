@@ -1,4 +1,7 @@
 import portfolioImg from "../assets/projects/portfolio.png"
+import climateImg from "../assets/projects/climate.png"
+import farmApiImg from "../assets/projects/farm-api.png"
+import agroDbImg from "../assets/projects/agro-db.png"
 
 function Projects() {
   return (
@@ -62,8 +65,12 @@ function Projects() {
           {/* Climate Dashboard */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
-              Captura próximamente
+            <div className="overflow-hidden">
+              <img
+                src={climateImg}
+                alt="Climate Dashboard"
+                className="w-full h-48 object-cover transition duration-500 hover:scale-110"
+              />
             </div>
 
             <div className="p-6">
@@ -98,8 +105,12 @@ function Projects() {
           {/* Farm API */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
-              Captura próximamente
+            <div className="overflow-hidden">
+              <img
+                src={farmApiImg}
+                alt="Farm API"
+                className="w-full h-48 object-cover transition duration-500 hover:scale-110"
+              />
             </div>
 
             <div className="p-6">
@@ -134,8 +145,12 @@ function Projects() {
           {/* Agro Data Manager */}
           <div className="bg-slate-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
 
-            <div className="h-48 flex items-center justify-center bg-slate-700 text-gray-400 text-sm">
-              Captura próximamente
+            <div className="overflow-hidden">
+              <img
+                src={agroDbImg}
+                alt="Agro Data Manager"
+                className="w-full h-48 object-cover transition duration-500 hover:scale-110"
+              />
             </div>
 
             <div className="p-6">
