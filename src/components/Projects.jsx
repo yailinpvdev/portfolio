@@ -83,7 +83,16 @@ function Projects() {
                 usando APIs y gráficos interactivos.
               </p>
 
-              <div className="flex justify-center mt-auto">
+              <div className="flex gap-3 justify-center mt-auto">
+
+                <a
+                  href="https://yailinpvdev.github.io/climate-data-analytics-dashboard/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-200"
+                >
+                  Demo
+                </a>
 
                 <a
                   href="https://github.com/yailinpvdev/climate-data-analytics-dashboard"
