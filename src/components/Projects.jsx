@@ -1,22 +1,20 @@
-import portfolioImg from "../assets/projects/portfolio.png"
-import climateImg from "../assets/projects/climate.png"
-import farmApiImg from "../assets/projects/farm-api.png"
-import agroDbImg from "../assets/projects/agro-db.png"
+```jsx
+import portfolioImg from "../assets/projects/portfolio.png";
+import climateImg from "../assets/projects/climate.png";
+import farmApiImg from "../assets/projects/farm-api.png";
+import agroDbImg from "../assets/projects/agro-db.png";
+import manteniProImg from "../assets/projects/manteni-pro.png";
 
 function Projects() {
   return (
     <section id="projects" className="bg-slate-900 text-white py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-12">Proyectos</h2>
 
-        <h2 className="text-3xl font-bold mb-12">
-          Proyectos
-        </h2>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Portfolio */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
-
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
             <div className="overflow-hidden">
               <img
                 src={portfolioImg}
@@ -26,18 +24,13 @@ function Projects() {
             </div>
 
             <div className="p-6 flex flex-col flex-grow">
-
-              <h3 className="text-xl font-semibold mb-3">
-                Portfolio Web
-              </h3>
-
+              <h3 className="text-xl font-semibold mb-3">Portfolio Web</h3>
               <p className="text-gray-400 mb-6">
-                Portafolio personal construido con React, Vite y Tailwind
-                para mostrar mis proyectos y habilidades.
+                Portafolio personal construido con React, Vite y Tailwind para
+                mostrar mis proyectos y habilidades.
               </p>
 
               <div className="flex gap-3 justify-center mt-auto">
-
                 <a
                   href="https://yailinpvdev.github.io/portfolio/"
                   target="_blank"
@@ -46,7 +39,6 @@ function Projects() {
                 >
                   Demo
                 </a>
-
                 <a
                   href="https://github.com/yailinpvdev/portfolio"
                   target="_blank"
@@ -55,15 +47,12 @@ function Projects() {
                 >
                   GitHub
                 </a>
-
               </div>
             </div>
           </div>
 
-
           {/* Climate Dashboard */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
-
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
             <div className="overflow-hidden">
               <img
                 src={climateImg}
@@ -73,18 +62,13 @@ function Projects() {
             </div>
 
             <div className="p-6 flex flex-col flex-grow">
-
-              <h3 className="text-xl font-semibold mb-3">
-                Climate Dashboard
-              </h3>
-
+              <h3 className="text-xl font-semibold mb-3">Climate Dashboard</h3>
               <p className="text-gray-400 mb-6">
-                Dashboard que visualiza datos climáticos en tiempo real
-                usando APIs y gráficos interactivos.
+                Dashboard que visualiza datos climáticos en tiempo real usando
+                APIs y gráficos interactivos.
               </p>
 
               <div className="flex gap-3 justify-center mt-auto">
-
                 <a
                   href="https://yailinpvdev.github.io/climate-data-analytics-dashboard/"
                   target="_blank"
@@ -93,7 +77,6 @@ function Projects() {
                 >
                   Demo
                 </a>
-
                 <a
                   href="https://github.com/yailinpvdev/climate-data-analytics-dashboard"
                   target="_blank"
@@ -102,37 +85,28 @@ function Projects() {
                 >
                   GitHub
                 </a>
-
               </div>
-
             </div>
           </div>
 
-
           {/* Farm API */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
-
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
             <div className="overflow-hidden">
               <img
                 src={farmApiImg}
-                alt="Farm API"
+                alt="Farm Data API"
                 className="w-full h-48 object-cover transition duration-500 hover:scale-110"
               />
             </div>
 
             <div className="p-6 flex flex-col flex-grow">
-
-              <h3 className="text-xl font-semibold mb-3">
-                Farm Data API
-              </h3>
-
+              <h3 className="text-xl font-semibold mb-3">Farm Data API</h3>
               <p className="text-gray-400 mb-6">
-                API REST desarrollada con Node.js y Express
-                para gestionar datos agrícolas.
+                API REST desarrollada con Node.js y Express para gestionar datos
+                agrícolas.
               </p>
 
               <div className="flex justify-center mt-auto">
-
                 <a
                   href="https://github.com/yailinpvdev/farm-data-management-system"
                   target="_blank"
@@ -141,16 +115,12 @@ function Projects() {
                 >
                   GitHub
                 </a>
-
               </div>
-
             </div>
           </div>
 
-
           {/* Agro Data Manager */}
-          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col h-full min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
-
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
             <div className="overflow-hidden">
               <img
                 src={agroDbImg}
@@ -160,18 +130,13 @@ function Projects() {
             </div>
 
             <div className="p-6 flex flex-col flex-grow">
-
-              <h3 className="text-xl font-semibold mb-3">
-                Agro Data Manager
-              </h3>
-
+              <h3 className="text-xl font-semibold mb-3">Agro Data Manager</h3>
               <p className="text-gray-400 mb-6">
-                Aplicación basada en MySQL que organiza y consulta
-                datos agrícolas mediante consultas SQL.
+                Aplicación basada en MySQL que organiza y consulta datos
+                agrícolas mediante consultas SQL.
               </p>
 
               <div className="flex justify-center mt-auto">
-
                 <a
                   href="https://github.com/yailinpvdev/agro-data-manager"
                   target="_blank"
@@ -180,16 +145,45 @@ function Projects() {
                 >
                   GitHub
                 </a>
-
               </div>
+            </div>
+          </div>
 
+          {/* ManteniPro */}
+          <div className="bg-slate-800 rounded-lg overflow-hidden flex flex-col min-h-[360px] transform transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-black/30">
+            <div className="overflow-hidden">
+              <img
+                src={manteniProImg}
+                alt="ManteniPro - Sistema de Gestión de Mantenimiento"
+                className="w-full h-48 object-cover transition duration-500 hover:scale-110"
+              />
+            </div>
+
+            <div className="p-6 flex flex-col flex-grow">
+              <h3 className="text-xl font-semibold mb-3">ManteniPro</h3>
+              <p className="text-gray-400 mb-6">
+                Sistema web full stack para gestionar equipos, solicitudes de
+                mantenimiento, técnicos y órdenes de mantenimiento.
+              </p>
+
+              <div className="flex justify-center mt-auto">
+                <a
+                  href="https://github.com/yailinpvdev/sistema-gestion-mantenimiento"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white hover:text-black"
+                >
+                  GitHub
+                </a>
+              </div>
             </div>
           </div>
 
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
+```;
